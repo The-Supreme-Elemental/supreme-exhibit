@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoGo Info</title>
+    <meta name="author" content="Christopher Hylton">
+    <meta name="description" content="Your first stop on your Pokemon Go journey">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/scripts.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Oxanium:wght@200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a id="home" href="index.html">
+            <img src="images/pogo-info-logo.webp" alt="PoGo Info logo">
+        </a>
+        <nav>
+            <ul>
+
+                <li><a href="soloplay.html">Solo Play</a></li>
+                <li><a href="battles.html">PVE | PVP</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="helpful-form.html">Links</a></li>
+            </ul>
+        </nav>
+        <a id="menu" href="#"></a>
+        <ul><li id="button"><button id="modeToggle">Light Mode</button></li></ul>
+    </header>
+    <main>
+
+        <div class="link-container">
+            <h2>Helpful Links</h2>
+            <h3>Here you will find multiple links to help you on your Pokemon Go journey. Included are a few of the top
+                Pokemon Go subreddits, a couple sites guaranteed to help with PVP and raids, and a few top YouTube
+                channels
+                for Pokemon Go Content! Enjoy!</h3>
+
+            <ul><a href="https://www.reddit.com/r/pokemongo/">Pokemon Go's No1 Subreddit</a></ul>
+            <ul><a href="https://www.reddit.com/r/TheSilphRoad/">Pokémon GO's Largest Grassroots Network: The Silph
+                    Road</a></ul>
+            <ul><a href="https://www.reddit.com/r/TheSilphArena/">The Silph League Arena: Competitive Pokemon GO
+                    Tournament Play</a>
+            </ul>
+            <ul><a href="https://pvpoke.com/">Open Source Battle Simulator, Rankings & Team Building for Pokemon Go
+                    PVP</a></ul>
+            <ul><a href="https://pogo.gamepress.gg/pokemon-go-type-chart">Pokemon Go Type Effectiveness Chart</a>
+            </ul>
+            <ul><a href="https://www.youtube.com/@MYSTlC7">MYSTIC7's Pokemon Go Youtube Channel</a></ul>
+            <ul><a href="https://www.youtube.com/c/Pok%C3%A9Daxi">Poke Daxi's Pokemon Go Youtube Channel</a></ul>
+            <ul><a href="https://www.youtube.com/@JTGily">JTGily's Pokemon Go Youtube Channel</a></ul>
+        </div>
+
+        <div class="newsletter-form">
+            <form method="get" action="thanks.html" target="_blank" class="discord-form">
+                <h2>Join our Pokemon Go Discord!</h2>
+
+                <fieldset>
+                    <legend>Username</legend>
+                    <label for="username"><input type="text" id="username" name="username" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Birthdate</legend>
+                    <label for="birthdate"><input type="date" id="birthdate" name="birthdate" required></label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Email</legend>
+                    <label for="email"><input type="email" id="email" name="email" required></label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Phone Number</legend>
+                    <label for="phone-number"><input type="tel" id="phone-number" name="phone-number"
+                            placeholder="123-456-7890" required></label>
+
+                </fieldset>
+
+                <fieldset>
+                    <input type="submit" value="Sign Up">
+                </fieldset>
+
+
+                <fieldset id="stars">
+                    <legend>How would you rate this website?</legend>
+                    <input type="radio" name="stars" id="star-5" value="5">
+                    <label for="star-5"></label>
+
+                    <input type="radio" name="stars" id="star-4" value="4">
+                    <label for="star-4"></label>
+
+                    <input type="radio" name="stars" id="star-3" value="3">
+                    <label for="star-3"></label>
+
+                    <input type="radio" name="stars" id="star-2" value="2">
+                    <label for="star-2"></label>
+
+                    <input type="radio" name="stars" id="star-1" value="1">
+                    <label for="star-1"></label>
+                </fieldset>
+
+
+            </form>
+        </div>
+
+
+    </main>
+    <footer>
+        <h3>
+            ©<span id="currentYear"></span> Christopher Hylton United States of America
+
+        </h3>
+
+        <p>
+            <span id="lastModified">Last Modified:</span>
+        </p>
+    </footer>
+
+
+</body>
+
+</html>

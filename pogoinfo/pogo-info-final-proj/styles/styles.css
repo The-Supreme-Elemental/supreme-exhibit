@@ -1,0 +1,579 @@
+:root {
+    --primary-color: #0e7c7b;
+    --secondary-color: #17bebb;
+    --tertiary-color: white;
+    --background-color: #071e22;
+
+}
+
+/* ------------------global styles------------------ */
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Barlow";
+    color: var(--secondary-color);
+}
+
+
+p,
+a,
+legend {
+    font-family: "Oxanium";
+    color: var(--tertiary-color);
+}
+
+
+p {
+    line-height: 2em;
+}
+
+
+body {
+    background-color: var(--background-color);
+    font-family: "";
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* heading styles */
+header {
+    display: block;
+    background-color: var(--primary-color);
+}
+
+#home {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding: 15px 5px;
+    width: 150px;
+}
+
+#home img {
+    width: 150px;
+
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    /* margin: 15px; */
+    padding: 1rem;
+    padding-top: 1rem;
+    text-decoration: none;
+
+}
+
+nav li {
+    display: none;
+    /* transition: 0.5s; */
+    /* padding: 15px; */
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+#menu {
+    display: flex;
+    justify-content: right;
+}
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--tertiary-color);
+    background-color: chartreuse;
+}
+
+#menu::before {
+    content: "≡";
+    position: absolute;
+    right: 15px;
+    top: 0px;
+    font-size: 50px;
+
+}
+
+#menu.show::before {
+    content: "×";
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 30px;
+
+}
+
+.show li {
+    display: block;
+    transition: 0.5s;
+}
+#button {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+button {
+    background-color: var(--background-color);
+    height: 40px;
+    padding: 0 25px;
+    margin: 20px 20px;
+    border: none;
+    color: var(--tertiary-color);
+}
+/* ~~~~~~~~~~~~~~~~~Light Theme Styles ~~~~~~~~~~~~~~~~~~~~ */
+
+header.light,
+footer.light {
+    background-color: var(--tertiary-color);
+}
+
+body.light {
+    background-color: var(--secondary-color);
+}
+
+button.light {
+    background-color: var(--primary-color);
+}
+
+h1.light,
+h2.light,
+h3.light,
+h4.light {
+    font-family: "Barlow";
+    color: var(--background-color);
+}
+
+p.light,
+a.light,
+legend {
+    font-family: "Oxanium";
+    color: var(--background-color);
+}
+
+label.light::before {
+    color: var(--background-color);
+}
+.light #menu {
+    color: var(--background-color);
+}
+.light #faq h3 {
+    color: var(--background-color);
+}
+
+
+
+
+/* footer styles */
+footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 15px;
+}
+
+footer h3 {
+    color: var(--tertiary-color);
+
+}
+
+footer p {
+    color: var(--tertiary-color);
+}
+
+
+/* ------------------index.html styles------------------ */
+
+
+/* main styles */
+main {
+    /* display: flex; */
+    text-align: center;
+
+}
+
+.hero {
+    display: block;
+    text-align: center;
+}
+
+.hero p {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.hero img {
+    height: 200px;
+}
+
+
+
+/* ------------------soloplay.html styles------------------ */
+
+#info,
+#pokemon-info {
+    display: block;
+    margin: 2em;
+}
+
+
+#info img {
+    width: 200px;
+    ;
+}
+
+
+
+/* ------------------battles.html styles------------------ */
+
+.battles-content {
+    max-width: 575px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+
+/* ------------------faqs.html styles------------------ */
+.faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.answer {
+    display: none;
+}
+
+.show .answer {
+    display: block;
+}
+
+
+/* ------------------helpful-form.html styles------------------ */
+.link-container {
+    padding: 2rem;
+}
+
+.link-container ul {
+    text-align: center;
+    padding: 0;
+}
+
+.newsletter-form {
+    padding: 2rem;
+}
+
+
+
+fieldset {
+    border: none;
+    padding-bottom: 20px;
+}
+
+#stars {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+#stars label {
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    display: block;
+    text-align: center;
+}
+
+
+input {
+    background-color: var(--tertiary-color);
+    width: 170px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+
+input[type="date"] {
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 30px;
+}
+
+input[type="submit"]:active {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+}
+
+
+/* Default: Empty stars */
+#stars>label::before {
+    content: "\2606";
+    /* Empty star */
+    color: var(--secondary-color)
+        /* color: lightgray; */
+}
+
+/* When a radio button is checked, fill the corresponding star and all previous ones */
+#stars input:checked~label::before {
+    content: "\2605";
+    /* Filled star */
+    color: var(--secondary-color);
+    /* Make the filled stars gold */
+}
+
+fieldset #stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#stars>label::before {
+    content: "\2606";
+}
+
+#stars input:checked~label::before {
+    content: "\2605";
+}
+
+input[type="radio"] {
+    display: none;
+    position: relative;
+    caret-color: rgba(0, 0, 0, 0);
+}
+
+#stars {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+#stars.hover {
+    color: #38091d;
+}
+
+#stars>label {
+    color: var(--secondary-color);
+    width: 40px;
+    height: 30px;
+    font-size: 2rem;
+    margin-left: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    caret-color: rgba(175, 22, 22, 0);
+}
+
+/* ------------------thanks.html styles------------------ */
+.thanks-link {
+    display: block;
+    margin: 100px;
+}
+
+
+/* Media Query for Big Screens */
+
+@media only screen and (min-width: 700px) {
+
+    /* ------------------global styles------------------ */
+    header {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+
+    nav {
+        display: flex;
+        margin: 0 auto;
+        /* padding-right: 100px; */
+        /* ^^^^^ This pushes the nav over to the center */
+    }
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    nav li {
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        height: 100%;
+        transition: 0.75s;
+    }
+
+    nav li:hover {
+        background-color: var(--secondary-color);
+        height: 100%;
+
+    }
+
+    nav a,
+    footer p {
+        font-size: 20px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    footer h3 {
+        color: white;
+    }
+
+    footer {
+        color: white;
+    }
+
+    button {
+        background-color: var(--background-color);
+        height: 40px;
+        padding: 0 25px;
+        margin: 0 20px;
+        border: none;
+        color: var(--tertiary-color);
+    }
+
+    #button {
+        display: flex;
+        align-items: center;
+
+    }
+
+    header.light {
+        background-color: var(--tertiary-color);
+    }
+
+    body.light {
+        background-color: var(--secondary-color);
+    }
+
+
+
+
+
+    /* ------------------soloplay.html styles------------------ */
+
+
+    #info {
+        display: block;
+        margin: 1em;
+    }
+
+    #pokemon-info {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .info-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Creates 2 equal-width columns */
+        grid-template-rows: repeat(4, minmax(100px, auto));
+        /* Creates 4 rows, each with a minimum height of 100px */
+        gap: 10px;
+        /* Optional: Adds spacing between grid items */
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* ------------------battles.html styles------------------ */
+    .battles-content {
+        max-width: 1200px;
+    }
+
+
+    /* ------------------helpful-form.html styles------------------ */
+
+    .link-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .link-container ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    .newsletter-form {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+
+    fieldset #stars {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #stars>label::before {
+        content: "\2606";
+    }
+
+    #stars input:checked~label::before {
+        content: "\2605";
+    }
+
+    input[type="radio"] {
+        display: none;
+        position: relative;
+        caret-color: rgba(0, 0, 0, 0);
+    }
+
+    #stars {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+
+    #stars.hover {
+        color: #38091d;
+    }
+
+    #stars>label {
+        color: var(--secondary-color);
+        width: 40px;
+        height: 10px;
+        font-size: 2.5rem;
+        margin-left: 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        caret-color: rgba(0, 0, 0, 0);
+        padding-top: 0px;
+
+    }
+
+
+}
