@@ -3,11 +3,11 @@
     --secondary-color: #B9BAA3;
     --tertiary-color: #D6D5C9;
     --accent1-color: #A22C29;
-    --accent2-color: #902923;
+    --accent2-color: #4e0b08;
 
 }
 
-/* --------------Global Styles */
+/* --------------Global Styles--------------- */
 * {
     margin: 0;
     padding: 0;
@@ -27,5 +27,11 @@ main {
 }
 
 p {
-    color: var();
+    color: var(--accent1-color);
 }
+
+h1, h3 {
+    color: var(--accent2-color);
+}
+
+/* -----------Navigation Styles ------------ */
