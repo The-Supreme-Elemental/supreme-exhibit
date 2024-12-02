@@ -17,21 +17,29 @@
 header,
 footer {
     background-color: var(--secondary-color);
-    font-family: "Titillium Web", sans-serif;
 }
 
 main {
     background-color: var(--tertiary-color);
-    font-family: "Nunito";
-
+    
 }
 
 p {
     color: var(--accent1-color);
+    font-family: "Titillium Web", sans-serif;
+    line-height: 2em;
 }
 
-h1, h3 {
+h1,
+h3 {
     color: var(--accent2-color);
+    font-family: "Nunito";
 }
 
-/* -----------Navigation Styles ------------ */
+/* ------------Header Styles--------- */
+header {
+    display: flex;
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+}
