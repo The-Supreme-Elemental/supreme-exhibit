@@ -23,7 +23,7 @@ main {
     background-color: var(--tertiary-color);
     text-align: center;
     margin: 0 auto;
-    padding: 1em 3em;
+    padding: 3em 2em;
 }
 
 p {
@@ -49,6 +49,28 @@ header {
 /* ------------Porfolio Styles--------- */
 
 
+.introduction {
+    max-width: 600px;
+    justify-content: left;
+    margin: 0 auto;
+
+}
+
+.web-list{
+    display: flex;
+}
+#pogoinfo {
+    padding: 2em;
+
+}
+#pogoinfo a{
+    align-items: center;
+}
+li{
+    list-style-type: none;
+
+}
+
 
 @media only screen and (min-width: 600px) {
     /* ------------Porfolio Styles--------- */
@@ -57,12 +79,6 @@ header {
         
     }
 
-    .introduction {
-        max-width: 600px;
-        justify-content: left;
-        margin: 0 auto;
-
-    }
 
     #me-text {}
 }
