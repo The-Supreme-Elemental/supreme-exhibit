@@ -56,27 +56,27 @@ header {
 
 }
 
-.web-list{
+.web-list {
     display: flex;
 }
-#pogoinfo {
-    padding: 2em;
 
+#web-list div {
+    padding: 2em;
 }
-#pogoinfo a{
-    align-items: center;
-}
-li{
+
+
+li {
     list-style-type: none;
 
 }
 
 
 @media only screen and (min-width: 600px) {
+
     /* ------------Porfolio Styles--------- */
     main {
         margin: 0 auto;
-        
+
     }
 
 
