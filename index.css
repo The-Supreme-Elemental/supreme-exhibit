@@ -67,6 +67,12 @@ header {
 
 li {
     list-style-type: none;
+    color: #0A100D;
+    
+}
+nav a {
+    text-decoration: none;
+    color: #0A100D;
 
 }
 
