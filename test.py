@@ -53,3 +53,7 @@ def main():
     
     count_down_thread.join()
     count_up_thread.join()
+
+
+if __name__ == "__main__":
+    main()
