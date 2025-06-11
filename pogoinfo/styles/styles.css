@@ -27,6 +27,7 @@ legend {
 
 p {
     line-height: 2em;
+    /* font-size: 19px; */
 }
 
 
@@ -118,11 +119,13 @@ nav ul {
     display: block;
     transition: 0.5s;
 }
+
 #button {
     display: flex;
     justify-content: center;
     margin: 5px;
 }
+
 button {
     background-color: var(--background-color);
     height: 40px;
@@ -131,6 +134,7 @@ button {
     border: none;
     color: var(--tertiary-color);
 }
+
 /* ~~~~~~~~~~~~~~~~~Light Theme Styles ~~~~~~~~~~~~~~~~~~~~ */
 
 header.light,
@@ -164,9 +168,11 @@ legend {
 label.light::before {
     color: var(--background-color);
 }
+
 .light #menu {
     color: var(--background-color);
 }
+
 .light #faq h3 {
     color: var(--background-color);
 }
@@ -242,6 +248,9 @@ main {
     margin: 0 auto;
     padding: 2rem;
 }
+
+/* ------------------pvp.html--------------------------- */
+
 
 
 /* ------------------faqs.html styles------------------ */
@@ -505,6 +514,8 @@ input[type="radio"] {
     .battles-content {
         max-width: 1200px;
     }
+
+    /* ------------------pvp.html---------------------------------- */
 
 
     /* ------------------helpful-form.html styles------------------ */
