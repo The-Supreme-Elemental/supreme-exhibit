@@ -19,7 +19,7 @@ def get_weather():
 
     params = {"q": city,
               "appid": API_KEY, 
-              "units": "metric"}
+              "units": "imperial"}
     response = requests.get(BASE_URL, params=params)
 
     print("API Response Code", response.status_code)  # Debugging line to check the response code

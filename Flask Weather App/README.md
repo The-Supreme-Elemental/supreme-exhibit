@@ -4,6 +4,8 @@
 Backend web application built with Flask that fetches weather data
 from an external API and displays results based on user input.
 
+This is a backend web application built with Flask that gets weather data 
+from an outside API and shows the results based on what the user has put. 
 ## Tech Stack
 - Python
 - Flask
@@ -31,7 +33,8 @@ from an external API and displays results based on user input.
    pip install -r requirements.txt
 
 6. Run app:
-   python app.py
+   python weather.py
 
 7. Open browser:
-   http://localhost:5000
+   The program will show you a link that should start with "Running on http://...". Click on this
+   and the program will run in your browser.
