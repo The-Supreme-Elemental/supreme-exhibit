@@ -1,4 +1,37 @@
-## This is a Weather App in Flask via Python. 
+# Flask Weather App
 
-This app will allow a user to input a city and receive the weather from that city for that day. I aim to have this project reference a live database, probably from a weather website, and display it to 
-the user. At this current moment, the program is only able to display the weather for the current moment, but I plan on making it so that multiple forecasts can be displayed. 
+## Overview
+Backend web application built with Flask that fetches weather data
+from an external API and displays results based on user input.
+
+## Tech Stack
+- Python
+- Flask
+- External API integration
+
+## Features
+- User input for location
+- API request handling
+- Data parsing and display
+
+## How to Run Locally
+
+1. Clone repo
+2. Navigate to folder:
+   cd "Flask Weather App"
+
+3. Create virtual environment:
+   python -m venv venv
+
+4. Activate environment:
+   source venv/bin/activate   (Mac/Linux)
+   venv\Scripts\activate      (Windows)
+
+5. Install dependencies:
+   pip install -r requirements.txt
+
+6. Run app:
+   python app.py
+
+7. Open browser:
+   http://localhost:5000
