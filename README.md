@@ -3,6 +3,15 @@
 This is my porfolio of personal projects. These can include academic projects that I have decided to build more upon, or 
 projects that I feel really show off my capabilities. 
 
+Below I have listen the projects that appear on this repository
+
+#### - CJ's Wallpapes. 
+    - This is a mobile wallpaper/stock photo business aimed at people who want their stock photos or phone wallpapers to be more natural. This photos focus on mostly macrophotography, with close up shots of random stuff I think looks
+    cool. This website is still very bare bones, but soon it will have more features.
+    Visit [here](https://the-supreme-elemental.github.io/supreme-exhibit/cjswallpapes/wallpapers.html)  
+
+#### - 
+
 The current projects on this site include PoGo Info, and CJs Wallpapes. Both sites can run, but will be updated soon. 
 
 PoGo Info v1 is an informational website that goes over the basic information about the hit mobile game Pokemon Go, and lists
