@@ -36,5 +36,10 @@ Below I have listen the projects that appear on this repository
     - These projects were a part of a course I am taking on AI development with Python, 
     featuring the libraries of NumPy, Pandas, and MatplotLib.
     
-    - I am still learning these libraries, but these are here to show that I am learning about how to filter, analyze, and visualize data.  
+    - I am still learning these libraries, but these are here to show that I am learning 
+    about how to filter, analyze, and visualize data.  
+
+    NOTE: The programs in this folder will not run unless pandas, numpy, seaborn, 
+    scikit-learn, and matplotlib are installed. You can install them by going to your terminal 
+    and inputting the command "pip install pandas" or "pip install numpy" or so on. 
 
