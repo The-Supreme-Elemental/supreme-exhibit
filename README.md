@@ -3,7 +3,7 @@
 This is my porfolio of personal projects. These can include academic projects that I have decided to build more upon, or 
 projects that I feel really show off my capabilities. 
 
-Below I have listen the projects that appear on this repository
+Below I have listed the projects that appear on this repository.
 
 #### 1. [CJ's Wallpapes](https://the-supreme-elemental.github.io/supreme-exhibit/cjswallpapes/wallpapers.html). 
     - This is a mobile wallpaper/stock photo business aimed at people who want their 
@@ -41,5 +41,5 @@ Below I have listen the projects that appear on this repository
 
     NOTE: The programs in this folder will not run unless pandas, numpy, seaborn, 
     scikit-learn, and matplotlib are installed. You can install them by going to your terminal 
-    and inputting the command "pip install pandas" or "pip install numpy" or so on. 
+    and inputting the command "pip install pandas" or "pip install numpy" and so on. 
 
