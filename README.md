@@ -31,7 +31,7 @@ Below I have listen the projects that appear on this repository
     
     - My goals for this project were to learn a new framework and learn about APIs.
 
-#### 4. NumPy Projects
+#### 4. [Data Learning Projects](https://github.com/The-Supreme-Elemental/supreme-exhibit/tree/main/python-data-learning)
 
     - These projects were a part of a course I am taking on AI development with Python, 
     featuring the libraries of NumPy, Pandas, and MatplotLib.
