@@ -25,7 +25,7 @@ Below I have listen the projects that appear on this repository
     of The Pokemon Company, Niantic, and their respective owners. )
 
 #### 3. [Flask Weather App](https://github.com/The-Supreme-Elemental/supreme-exhibit/tree/main/Flask%20Weather%20App) 
-)
+
     - This is a basic project that is written in the Python web framework of Flask. It fetches 
     data from an outside API and displays it to the user within a clean display screen. 
     
@@ -34,21 +34,7 @@ Below I have listen the projects that appear on this repository
 #### 4. NumPy Projects
 
     - These projects were a part of a course I am taking on AI development with Python, 
-    featuring the libraries of NumPy, Pandas, and MatPlotLib.
+    featuring the libraries of NumPy, Pandas, and MatplotLib.
     
-    - I am still learning these libraries, but these are here to show that I know a little 
-    bit of these important Python Libraries. 
-     
-The current projects on this site include PoGo Info, and CJs Wallpapes. Both sites can run, but will be updated soon. 
+    - I am still learning these libraries, but these are here to show that I am learning about how to filter, analyze, and visualize data.  
 
-PoGo Info v1 is an informational website that goes over the basic information about the hit mobile game Pokemon Go, and lists
-everything a casual player would need to know. v2 of the site will add details more attuned to more committed players. v2 will
-also attempt to adapt several current website trends; however, such trends have not been decided on yet. For your convenience, 
-the site can be visited at https://the-supreme-elemental.github.io/supreme-exhibit/pogoinfo/index.html.
-
-CJs wallpapes is a wallpaper/stock photo business aimed at people who want their stock photos to be different. As of now, the 
-website is not very dynamic, with the only thing being a janky slideshow. This will be replaced for a smoother looking gallery, 
-with lazy loaded images and resized images. 
-
-These are the only projects as of now I feel comfortable sharing with the outside world, but more projects will soon follow suit 
-and show their faces here. 
